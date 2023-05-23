@@ -1,0 +1,123 @@
+body{
+    background-color:rgb(109, 151, 151);
+    background-image: url(/images/marketBg.jpg);
+    background-size: cover; 
+
+    padding: 0px;
+    margin: 0px;
+
+
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.main-form{
+    background-color: rgba(0,0,0,0.7);
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+.add-to-cart{
+    display: flex;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.add-to-cart a{
+    text-decoration: none;
+    color: rgba(233, 230, 224, 0.815);
+}
+
+.products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: 80vh
+
+}
+
+.product{
+    background-color: aliceblue;
+    border-radius: 5px;
+
+}
+
+.products .product-image{
+    background-color: rgb(185, 177, 177);
+    color: rgb(56, 49, 49);
+    height: 170px;
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.input{
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    padding: 8px;
+}
+
+.product .input .quantity, .giftwrap{
+    width: 135px;
+    height: 18px;
+    position: relative;
+    left: 50px;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.product .input .giftwrap{
+    left: 110px;
+}
+
+.add-to-cart button{
+    background-color: transparent;
+    border: none ;
+    cursor: pointer;
+}
+
+.details{
+	display: flex;
+}
+
+.product-amount{
+	position: relative;
+	left: 85px;
+}
+
+
+.exit{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: aliceblue;
+    display: flex;
+    
+}
+
+.exit a{
+    text-decoration: none;
+    color: rgba(233, 230, 224, 0.815);
+}
+
+.exit svg{
+    transition-duration: 0.70s;
+}
+
+.exit:hover .svg-img{
+    transform: rotate(180deg);   
+}
+
+form button{
+    background-color: transparent;
+    border: none ;
+    cursor: pointer;
+}

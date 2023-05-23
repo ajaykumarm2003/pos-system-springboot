@@ -1,0 +1,89 @@
+body{
+    background-color:rgb(109, 151, 151);
+    background-image: url(/images/marketBg.jpg);
+    background-size: cover; 
+
+    padding: 0px;
+    margin: 0px;
+
+
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+}
+
+.bg{
+    background-color: rgba(0,0,0,0.7);
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.exit{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: aliceblue;
+    display: flex;
+    
+}
+
+.exit a{
+    text-decoration: none;
+    color: rgba(233, 230, 224, 0.815);
+}
+
+.exit svg{
+    transition-duration: 0.70s;
+}
+
+.exit:hover .svg-img{
+    transform: rotate(180deg);   
+}
+
+form button{
+    background-color: transparent;
+    border: none ;
+    cursor: pointer;
+}
+
+.products-table{
+
+    position: relative;
+    top: 60px;
+    left: 20%;
+
+    color: rgb(243, 223, 187);
+}
+
+th, td{ 
+    border: solid 2px gray;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    
+}
+
+.products-table th{ 
+    width: 285px;
+    text-align: left;
+}
+
+.products-table .cash{
+    text-align: right;
+}
+
+.products-table thead{ 
+    background-color: rgba(0, 255, 255, 0.308);
+}
+
+.products-table tfoot{
+    background-color: rgba(13, 32, 28, 0.473);
+}
+
+.products-table .sub-total, .total{
+    background-color: rgba(36, 112, 117, 0.562);
+}
+
+.final{
+		background-color: rgba(200, 0,0, 0.56);	
+}

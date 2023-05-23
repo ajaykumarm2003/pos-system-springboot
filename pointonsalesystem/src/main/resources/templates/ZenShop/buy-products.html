@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="/CSS/bp.css">
+
+</head>
+	
+<body>
+
+<form action="/zenshop/addtocart" method="post" class="main-form" >
+
+    <div class="products container">
+
+        <!-- ========================= -->
+
+        <div class="product A" style="width: 18rem;">
+            
+            <div class="product-image">
+                <h1>PRODUCT A</h1>
+            </div>
+		
+		<div class="product details">
+			
+            <h3 class="product-name" style="margin:8px"> Product A</h3> 
+            <h3 class="product-amount" style="margin:8px">Price &dollar;20</h3> 
+            
+		</div>
+            
+            <div action="" class="input">  
+
+                <label for="aQuantity"><h3>Quantity</h3></label>
+                <input type="number" id="aQuantity" name="aQuantity" class="quantity">
+
+                <br>
+
+                <label for="aGiftwrap"> <h3>GiftWrap </h3></label>
+                <input type="checkbox" id="aGiftwrap" name="aGiftwrap" class="giftwrap">
+                
+            </div>
+
+            <a href=""></a>  
+        </div>
+
+        <!-- ========================= -->
+
+        <div class="product B" style="width: 18rem;">
+            
+            <div class="product-image">
+                <h1>PRODUCT B</h1>
+            </div>
+
+		 <div class="product details">
+	
+            <h3 class="product-name" style="margin:8px"> Product B</h3> 
+            <h3 class="product-amount" style="margin:8px">Price &dollar;40</h3> 
+         </div>
+         
+            <div action="" class="input">  
+         
+                <label for="bQuantity"><h3>Quantity</h3></label>
+                <input type="number" id="bQuantity" name="bQuantity" class="quantity">
+
+                <br>
+
+                <label for="bGiftwrap"> <h3>GiftWrap </h3></label>
+                <input type="checkbox" id="bGiftwrap" name="bGiftwrap" class="giftwrap">
+
+            </div>
+
+            <a href=""></a>  
+        </div>
+
+        <!-- ========================= -->
+
+        <div class="product C" style="width: 18rem;">
+            
+            <div class="product-image">
+                <h1>PRODUCT C</h1>
+            </div>
+		
+		<div class="product details">
+            <h3 class="product-name" style="margin:8px"> Product C</h3> 
+            <h3 class="product-amount" style="margin:8px">Price &dollar;50</h3> 
+        </div>
+            <div action="" class="input">  
+
+                <label for="cQuantity"><h3>Quantity</h3></label>
+                <input type="number" id="cQuantity" name="cQuantity" class="quantity">
+
+                <br>
+
+                <label for="cGiftwrap"> <h3>GiftWrap </h3></label>
+                <input type="checkbox" id="cGiftwrap" name="cGiftwrap" class="giftwrap">
+
+            </div>
+
+            <a href=""></a>  
+        </div>
+
+    </div>
+
+    <div class="add-to-cart">
+        <button type="submit">
+
+        <svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 96 960 960" width="48" fill="white"><path d="m480 482-42-42 74-74H330v-60h182l-74-74 42-42 146 146-146 146ZM289.788 976Q260 976 239 954.788q-21-21.213-21-51Q218 874 239.212 853q21.213-21 51-21Q320 832 341 853.212q21 21.213 21 51Q362 934 340.788 955q-21.213 21-51 21Zm404 0Q664 976 643 954.788q-21-21.213-21-51Q622 874 643.212 853q21.213-21 51-21Q724 832 745 853.212q21 21.213 21 51Q766 934 744.788 955q-21.213 21-51 21ZM62 236v-60h116l170 364h287.706L796 260h67L701 563q-11 19-28.559 30.5Q654.881 605 634 605H331l-56 104h491v60H284q-37.663 0-57.332-30Q207 709 224 678l64-118-148-324H62Z"/></svg>   
+    	   </button>    
+    </div>
+
+</form>
+	
+    <form action="/zenshop/landing">
+        <div class="exit" id="exit" name="exit">
+            <button type="submit"> 
+                <svg xmlns="http://www.w3.org/2000/svg" height="50" viewBox="0 96 960 960" width="50" fill="white" class="svg-img"><path d="M180 936q-24 0-42-18t-18-42V666h60v210h600V274H180v212h-60V274q0-24 18-42t42-18h600q24 0 42 18t18 42v602q0 24-18 42t-42 18H180Zm233-167-45-45 118-118H120v-60h366L368 428l45-45 193 193-193 193Z"/></svg>
+            </button>
+        </div> 
+    </form>
+</body>
+</html>

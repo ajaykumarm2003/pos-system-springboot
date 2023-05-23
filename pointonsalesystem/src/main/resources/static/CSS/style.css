@@ -1,0 +1,83 @@
+:root{ /* variable declaration */
+    --dullBlack :  rgb(27, 26, 26);
+}
+
+body{
+    background-color:rgb(109, 151, 151);
+    background-image: url(/images/marketBg.jpg);
+    background-size: cover; 
+
+    padding: 0px;
+    margin: 0px;
+
+
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.bg{
+    background-color: rgba(0,0,0,0.7);
+    height: 100vh;
+    width: 100vw;
+}
+
+.menu-container{
+
+	display: flex;
+	flex-wrap: wrap;
+	
+    position: absolute;
+    top: 30%;
+    left: 25%;
+
+    display: flex;
+    gap: 10px;
+
+}
+
+.tile{
+    background-color: rgb(235, 227, 227);
+    border-radius: 10px;    
+    width: 150px;   
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.tile h3{
+    text-align: center;
+}
+
+.tile a{
+    text-decoration: none;
+    color: var(--dullBlack);
+}
+
+.exit{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: aliceblue;
+    display: flex;
+    
+}
+
+.exit a{
+    text-decoration: none;
+    color: rgba(233, 230, 224, 0.815);
+}
+
+.exit svg{
+    transition-duration: 0.70s;
+}
+
+.exit:hover .svg-img{
+    transform: rotate(180deg);   
+}
+
+form button{
+    background-color: transparent;
+    border: none ;
+    cursor: pointer;
+}
+
